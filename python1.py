@@ -33,3 +33,17 @@ print("This is the length of a string\t" +str(len(multi)));
 print("\nRemoving the white space in a string");
 empty =("    this is a space     we have to remove it    so we use strip       ");
 print( empty.strip() );
+
+
+print("\nThis is to write Upper and Lower Case");
+low=("THIS IS TO BE IN THE LOWER CASE");
+upp=("this is to be in the upper case");
+print(low.lower());
+print(upp.upper());
+
+
+print("\nReplace");
+rep=("replace this line with other line of sentence");
+print(rep.replace("replace this line with other line of sentence","This line is been replaced"));
+
+
