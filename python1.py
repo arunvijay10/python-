@@ -138,5 +138,12 @@ else:
     print("Invalid Input By You");
 
 
+print("\nTo find the type of input by the user");
+user3=int(input("Enter The Number:\t"));
+user4=str(input("Enter Your Name:\t"));
+print(type(user3));
+print(type(user4))
+
+
 
 

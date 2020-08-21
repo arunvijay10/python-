@@ -14,3 +14,5 @@ print("\nOpertors Normal Way");
 minus=0;
 minus-=55;
 print(minus);
+
+print("finding the type  we use type");
