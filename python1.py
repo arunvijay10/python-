@@ -145,5 +145,25 @@ print(type(user3));
 print(type(user4))
 
 
+print("\nCollections in python");
+user5=["Arun Vijay","Anonymous","Coder","Programming"];
+print(user5[0]);
+user6=("This is a list","collection of Data");
+print(user6.__hash__);
+for fetching in user5:
+    print(fetching);
+print(type(user5));
+print(type(user6));
+
+print("\nAdding Deleting in a file");
+user7=[];
+user7.append("This is a function");
+print(user7);
+user8=[4,2,1,8,5,6];
+user9=[];
+user8=user9;
+print(user9.sort);
+
+
 
 
