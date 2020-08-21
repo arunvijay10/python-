@@ -91,3 +91,27 @@ print(true);
 print(false);
 print(checkfalse);
 print(checktrue);
+
+
+print("\nOpertors Normal Way");
+minus=0;
+minus-=55;
+print(minus);
+
+
+print("And or Not ")
+compare1=45;
+compare2=55;
+print(compare1 and compare2);
+print(compare1 or compare2);
+
+print("\nValues in a order");
+values="This will be printed as same";
+for ge in values:
+    print(ge);
+print(not "This" in values);
+print(not "this" in values);
+
+print("\nBinary of Two")
+print(2<<1);
+

@@ -8,3 +8,9 @@ print("string formatter line  55 we  use {}) #format
 print("Finding the index we will use index) #index
 print("finding the upper lower ascii by using is.upper()) #finding
 print("starts with and end's with) #startwith ends with
+
+
+print("\nOpertors Normal Way");
+minus=0;
+minus-=55;
+print(minus);
