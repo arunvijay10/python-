@@ -112,6 +112,31 @@ for ge in values:
 print(not "This" in values);
 print(not "this" in values);
 
-print("\nBinary of Two")
+
+print("\nBinary of Two");
 print(2<<1);
+
+print("\nIF else condition");
+print("Please Enter One Value To See The Magic");
+user1=int(input("Please Enter A Value:\t"));
+if user1 == 1:
+    print("Wow");
+else:
+    print("Try");
+
+
+print("\nBoolean Condtion with little complex");
+print("Please Enter A Value");
+user2=int(input("Enter A Value:"));
+if user2 >= 3:
+    print("Please Use Small Number Less Than 3");
+elif user2 ==1:
+    print("Excellent");
+elif user2 ==2:
+    print("Good");
+else:
+    print("Invalid Input By You");
+
+
+
 
