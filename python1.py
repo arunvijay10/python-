@@ -46,4 +46,28 @@ print("\nReplace");
 rep=("replace this line with other line of sentence");
 print(rep.replace("replace this line with other line of sentence","This line is been replaced"));
 
+print("\nchecking weather the object or string is present or not");
+objects="Arun Vijay ,Someone,Other";
+store="Arun Vijay"in objects
+print("This will return a boolean value\t"+str(store));
 
+
+print("\nstring formatter")
+name="Arun Vijay";
+profession ="Programmer"
+show ="My Name is {} and profession is {}";
+print(show.format(name,profession));
+
+
+print("\nFinding The index of a Text");
+search = ("We have to find the index of Arun Vijay");
+print(search.index("Arun Vijay"));
+
+print("\n To check weather its all upper lower alpha digit");
+checkupper="ARUN VIJAY";
+checklower="arun vijay";
+checkdigit=12345;
+checkalpha="ArunVijay";
+print("\nThis is Upper\t"+str(checkupper.isupper()));
+print("\nThis is Upper\t"+str(checklower.islower()));
+print(checkdigit.isdigit);
