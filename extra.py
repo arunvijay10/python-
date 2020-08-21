@@ -7,3 +7,4 @@ print("Repace this line we have to pass two parameters") #Replace
 print("string formatter line  55 we  use {}) #format
 print("Finding the index we will use index) #index
 print("finding the upper lower ascii by using is.upper()) #finding
+print("starts with and end's with) #startwith ends with

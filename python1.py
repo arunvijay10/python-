@@ -6,7 +6,7 @@ print("\nThis is a type casting to float\n ");
 z=85;
 print(float(z))
 
-print("\n concatnation of a string\n");
+print("\nconcatnation of a string\n");
 
 str1=("This is a string to be concatenate");
 str2=("This is the next string to be concatenate with first");
@@ -21,7 +21,7 @@ print("\nReversing The String");
 rev=("This whole line has to be reversed");
 print(rev[::-1]);
 
-print("\n Multiline String to Print use three codes");
+print("\nMultiline String to Print use three codes");
 multi="""This 
 is a multi
 line string 
@@ -74,3 +74,20 @@ print("This is Upper\t"+str(checklower.islower()));
 print("This is a integer\t"+ str(checkdigit.isdigit()));
 print("This is alphabet\t"+str(checkalpha.isalpha()));
 print("This is ascii\t"+ str(checkascii.isascii()));
+
+
+print("\nTo Check Weather it is staring with or ending with");
+checking="This is word starts with and ends with";
+print(checking.startswith("This"));
+print(checking.endswith("with"));
+
+
+print("\nTrue or False / Not True And Not False");
+true = True;
+false= False;
+checkfalse = not False;
+checktrue = not True;
+print(true);
+print(false);
+print(checkfalse);
+print(checktrue);
