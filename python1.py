@@ -160,10 +160,16 @@ user7=[];
 user7.append("This is a function");
 print(user7);
 user8=[4,2,1,8,5,6];
-user9=[];
-user8=user9;
-print(user9.sort);
+user8.sort()
+print(user8);
 
 
-
+print("\nAppend Insert Pop More...");
+user9=[]
+user9.insert(0,"Arun Vijay");
+user9.insert(1,"Arun Vijay");
+user9.insert(2,"Programmer in Devlopment");
+print(user9);
+user9.pop(0);
+print(user9);
 
