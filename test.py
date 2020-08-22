@@ -1,18 +1,6 @@
-print("\nMore About Dictionary")
-user14=[
-    {
-        "class1": {"name":"arun vijay",
-                "passion":"Programming"
-
-    }
-    },
-    {
-    "class2":{
-        "name":"Anonymous",
-        "passion":"Hacking"
-    }
-    } 
-]
-print(user14)
-print(user14[0])
-print(user14[1])
+user15=0
+sum=0;
+while user15<=10:
+    user15=user15+1;
+    sum = sum+user15;
+print(sum)

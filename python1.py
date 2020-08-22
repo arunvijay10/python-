@@ -185,8 +185,8 @@ print(user12);
 print("\nset {} don't have a index it will alway's be random");
 user13={"The Values are not in order","They will be in unordered list"}
 print(user13);
-print("\nAdding More Functions in a set")
-user13.add("Keep on adding more Function's")
+print("\nAdding More Functions in a set");
+user13.add("Keep on adding more Function's");
 print(user13);
 user13.pop();
 print(user13);
@@ -220,7 +220,23 @@ user14=[
         "passion":"Hacking"
     }
     } 
-]
-print(user14)
-print(user14[0])
-print(user14[1])
+];
+print(user14);
+print(user14[0]);
+print(user14[1]);
+print(user14[0].values());
+print(user14[0].keys());
+
+
+print("\nWhile Loop")
+user15=0
+while user15<=10:
+    user15=user15+1;
+    print(user15)
+print("\nSum of all Number")
+user15=0
+sum=0;
+while user15<=10:
+    user15=user15+1;
+    sum = sum+user15;
+print(sum)
