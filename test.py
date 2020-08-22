@@ -1,6 +1,11 @@
-print("\nPassing Two Argumnets")
-def user40(**arg):
-    print(arg["number1"])
-    return user40
-    
-print(user40(number1=4,number2=3))
+print("\n Finding the factorial of a number")
+def factorial():
+    user41=int(input("Enter the Number to find the factorial: "))
+    for i in range(1,11):
+       i=i*user41;
+       print(i)
+factorial();
+
+
+
+
