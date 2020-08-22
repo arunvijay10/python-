@@ -192,3 +192,35 @@ user13.pop();
 print(user13);
 print(user13.difference());
 
+
+print("\nThis is a dictionary ");
+'''A dictionary is a collection which is unordered, changeable and indexed. 
+In Python dictionaries are written with curly brackets, and they have keys and values'''
+students={
+    "name":"ARUN VIJAY",
+    "Passion":"Multi-Talented-Thing's",
+    "Hobiess":"Coding , Programming"
+}
+print(students);
+print(students['name']);
+print(students['Passion']);
+
+
+print("\nMore About Dictionary")
+user14=[
+    {
+        "class1": {"name":"arun vijay",
+                "passion":"Programming"
+
+    }
+    },
+    {
+    "class2":{
+        "name":"Anonymous",
+        "passion":"Hacking"
+    }
+    } 
+]
+print(user14)
+print(user14[0])
+print(user14[1])
