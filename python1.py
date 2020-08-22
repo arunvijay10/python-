@@ -240,3 +240,17 @@ while user15<=10:
     user15=user15+1;
     sum = sum+user15;
 print(sum)
+
+
+print("\nContinue And Break")
+user16=["arun Vijay","Programmer","Hacker"]
+for i in user16:
+    if i=="arun Vijay":
+        continue
+    print(i)
+
+user17=["arun Vijay","coder","hacker"]
+for i in user17:
+    if i =="arun Vijay":
+        break
+    print(i)    
