@@ -313,12 +313,22 @@ def user40(**arg):
 print(user40(number1=4,number2=3))
 
 print("\n Finding the multiplication of a number")
-def factorial():
+def multi():
     user41=int(input("Enter the Number to find the factorial: "))
     for i in range(1,11):
        i=i*user41;
        print(i)
-factorial();
+multi();
+
+print("\nFactorial of a number")
+def Factorial(n):
+    Double=1;
+    for i in range(1,n+1):
+         Double=Double*i
+    return Double;
+print(Factorial(5))
+
+
 
 
 
