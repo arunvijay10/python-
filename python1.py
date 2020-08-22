@@ -282,4 +282,10 @@ print("\nArgument Order Specifier")
 def user32(name,age,passion):
     print("Your Name is{} . Your age is {}. Your Passion is {}".format(name,age,passion));
 user32(age=25,passion="Programming",name="Arun Vijay")
-    
+
+
+print("\nReturn In Function")
+def user34(user36,user37):
+    user35=user36+user37
+    return user35
+print(user34(25,45))
