@@ -24,3 +24,18 @@ print(user8);
 
 print("\nset {} don't have a index it will alway's be random"); #They Will be unordered list
 
+print("\nTaking Dynamic Number and adding so we use *")
+def user39(*arg): #one argument we use one star
+    sum=0;
+    for i in arg:
+        sum=sum+i;
+    return sum;
+print(user39(20,30))
+
+
+print("\nPassing Two Argumnets")
+def user40(**arg): #Two argument we use two stars
+    print(arg["number1"])
+    return user40
+    
+print(user40(number1=4,number2=3))

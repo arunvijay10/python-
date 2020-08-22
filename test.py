@@ -1,11 +1,6 @@
-print("\nPassing the value in specifier area")
-def user38(a=45,b=85):
-    c=a+b;
-    print(c);
-user38();
-
-print("\nwill Not Take the default value")
-def user39(a=85,b=85):
-    c=a+b;
-    print(c);
-user38(44,88);
+print("\nPassing Two Argumnets")
+def user40(**arg):
+    print(arg["number1"])
+    return user40
+    
+print(user40(number1=4,number2=3))
