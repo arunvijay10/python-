@@ -272,3 +272,8 @@ def game():
     user30=user19+user20
     print("This is your answer\t:"+str(user30))
 game();
+
+print("\nFunction With Argument")
+def user31(name):
+    print("Hello {}".format(name))
+user31("Arun Vijay")
