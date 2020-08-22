@@ -289,3 +289,17 @@ def user34(user36,user37):
     user35=user36+user37
     return user35
 print(user34(25,45))
+
+
+print("\nPassing the value in specifier area")
+def user38(a=45,b=85):
+    c=a+b;
+    print(c);
+user38();
+print("\nwill Not Take the default value")
+def user39(a=85,b=85):
+    c=a+b;
+    print(c);
+user38(44,88);
+
+
