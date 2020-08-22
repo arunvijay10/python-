@@ -173,3 +173,22 @@ print(user9);
 user9.pop(0);
 print(user9);
 
+
+
+print("""\nTuple Will Throw an error when there is no comma at the end when we are joining """);
+user10=("Tuple","Adding Value");
+user11=("Make Sure to add comma at the end or add second value","value");
+user12=user10+user11
+print(user12);
+
+
+print("\nset {} don't have a index it will alway's be random");
+user13={"The Values are not in order","They will be in unordered list"}
+print(user13);
+print("\nAdding More Functions in a set")
+user13.add("Keep on adding more Function's")
+print(user13);
+user13.pop();
+print(user13);
+print(user13.difference());
+

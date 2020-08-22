@@ -21,3 +21,6 @@ print("Sort has Different working order")
 user8=[4,2,1,8,5,6];
 user8.sort()
 print(user8);
+
+print("\nset {} don't have a index it will alway's be random"); #They Will be unordered list
+
