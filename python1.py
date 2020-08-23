@@ -328,6 +328,21 @@ def Factorial(n):
     return Double;
 print(Factorial(5))
 
+print("\nLambda");
+print("A lambda function is a small anonymous function");
+sum = lambda a,b: a*b;
+print(sum(20,10));
+
+
+print("\noops Object Oriented Programming")
+class  user42:
+    def setinfo(self,name,Passion):
+        self.name=name
+        self.Passion=Passion
+obj=user42();
+obj.setinfo("Arun Vijay","programming");
+print(obj.name);
+print(obj.Passion);
 
 
 

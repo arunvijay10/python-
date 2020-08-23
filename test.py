@@ -1,9 +1,11 @@
-print("\nFactorial of a number")
-def Factorial(n):
-    Double=1;
-    for i in range(1,n+1):
-         Double=Double*i
-    return Double;
-print(Factorial(5))
+print("\noops Object Oriented Programming")
+class  user42:
+    def setinfo(self,name,Passion):
+        self.name=name
+        self.Passion=Passion
 
 
+obj=user42();
+obj.setinfo("Arun Vijay","programming");
+print(obj.name);
+print(obj.Passion);
