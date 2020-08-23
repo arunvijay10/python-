@@ -1,4 +1,4 @@
-#ignored file
+now its ignoring all the files
 name =["arun vijay"]
 print(type(name))
 print(dir(list)) #seeing all the directories of a file
@@ -40,3 +40,4 @@ def user40(**arg): #Two argument we use two stars
     return user40
     
 print(user40(number1=4,number2=3))
+
