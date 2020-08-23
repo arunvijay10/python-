@@ -390,6 +390,12 @@ class user43:
 
 obj2=user43("arun Vijay","Programming","Coder")
 
+print("\nPass")
+class user44:
+    pass
 
-
-
+print("\nTry Except")
+try:
+    user45=int(input("Enter A Number: "));
+except:
+    print("This is a Invalid Input");
