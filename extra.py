@@ -40,4 +40,7 @@ def user40(**arg): #Two argument we use two stars
     return user40
     
 print(user40(number1=4,number2=3))
-
+print("packages")
+print(import)
+print(__init__.py in a package)
+end
