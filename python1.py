@@ -344,6 +344,51 @@ obj.setinfo("Arun Vijay","programming");
 print(obj.name);
 print(obj.Passion);
 
+print("\nSetting And getting Info of a class")
+class info:
+
+    def setinfo(self,name,passion,work):
+        self.name =name;
+        self.passion=passion;
+        self.work=work;
+    def getinfo(self):
+        print(self.name);
+        print(self.passion);
+        print(self.work);
+obj1=info();
+obj1.setinfo("arun Vijay","Programmer","Coding")
+print(obj1.name)
+obj1.getinfo();
+
+
+print("\nConstructor")
+class user43:
+    def __init__(self,name,passion,work):
+        self.name = name
+        self.passion = passion
+        self.work = work
+    def getinfo(self):
+        print(self.name)
+        print(self.passion)
+        print(self.work)
+
+obj2=user43("arun Vijay","Programming","Coder")
+obj2.getinfo()
+
+
+print("\nFuntion calling inside the constructor")
+class user43:
+    def __init__(self,name,passion,work):
+        self.name = name
+        self.passion = passion
+        self.work = work
+        obj2.getinfo()
+    def getinfo(self):
+        print(self.name)
+        print(self.passion)
+        print(self.work)
+
+obj2=user43("arun Vijay","Programming","Coder")
 
 
 

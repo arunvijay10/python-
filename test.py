@@ -1,11 +1,29 @@
-print("\noops Object Oriented Programming")
-class  user42:
-    def setinfo(self,name,Passion):
-        self.name=name
-        self.Passion=Passion
+print("\nConstructor")
+class user43:
+    def __init__(self,name,passion,work):
+        self.name = name
+        self.passion = passion
+        self.work = work
+    def getinfo(self):
+        print(self.name)
+        print(self.passion)
+        print(self.work)
+
+obj2=user43("arun Vijay","Programming","Coder")
+obj2.getinfo()
 
 
-obj=user42();
-obj.setinfo("Arun Vijay","programming");
-print(obj.name);
-print(obj.Passion);
+print("\nFuntion calling inside the constructor")
+class user43:
+    def __init__(self,name,passion,work):
+        self.name = name
+        self.passion = passion
+        self.work = work
+        obj2.getinfo()
+    def getinfo(self):
+        print(self.name)
+        print(self.passion)
+        print(self.work)
+
+obj2=user43("arun Vijay","Programming","Coder")
+
